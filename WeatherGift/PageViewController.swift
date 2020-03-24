@@ -20,6 +20,7 @@ class PageViewController: UIPageViewController {
         
         loadLocations()
         setViewControllers([createLocationDetailViewController(forPage: 0)], direction: .forward, animated: false, completion: nil)
+        
     }
     
     func loadLocations() {

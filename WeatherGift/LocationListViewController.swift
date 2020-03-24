@@ -73,6 +73,7 @@ extension LocationListViewController: UITableViewDataSource, UITableViewDelegate
     
 }
 
+
 extension LocationListViewController: GMSAutocompleteViewControllerDelegate {
 
   // Handle the user's selection.

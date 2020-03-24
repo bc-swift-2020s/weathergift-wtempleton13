@@ -30,7 +30,6 @@ class LocationDetailViewController: UIViewController {
         let weatherLocation = pageViewController.weatherLocations[locationIndex]
         let weatherDetail = WeatherDetail(name: weatherLocation.name, latitude: weatherLocation.latitude, longitude: weatherLocation.longitude)
         
-        
         pageControl.numberOfPages = pageViewController.weatherLocations.count
         pageControl.currentPage = locationIndex
         

@@ -66,3 +66,4 @@ class WeatherDetail: WeatherLocation {
         task.resume()
     }
 }
+
